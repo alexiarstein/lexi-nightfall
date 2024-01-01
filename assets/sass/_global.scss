@@ -13,7 +13,7 @@ body {
 a {
   color: $pink;
 }
-
+a:hover { color: $pink; }
 pre code {
   font-family: $fontCode;
   font-size: 75%;
