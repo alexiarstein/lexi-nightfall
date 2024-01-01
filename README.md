@@ -8,14 +8,14 @@ Import as [hugo module](https://gohugo.io/hugo-modules/use-modules/#use-a-module
 ```toml
 [module]
 [[module.imports]]
-  path = 'github.com/LordMathis/hugo-theme-nightfall'
+  path = 'github.com/alexiarstein/lexi-nightfall'
 ```
 
 OR
 
 Import manually:
-1. `git clone https://github.com/LordMathis/hugo-theme-nightfall themes/nightfall`
-2. Add `theme = "nightfall"` in your `config.toml`:
+1. `git clone https://github.com/alexiarstein/lexi-nightfall themes/lexi-nightfall`
+2. Add `theme = "lexi-nightfall"` in your `config.toml`:
 
 ## Configuration
 
@@ -96,5 +96,5 @@ You can customize the text displayed in footer with `footerHtml` in `[[params]]`
 
 ```toml
 [params]
-footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
+footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/alexiarstein/lexi-nightfall" class="footerLink">Nightfall</a> theme'
 ```
