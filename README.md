@@ -1,10 +1,6 @@
-# Nightfall
+# lexi-nightfall
 
-Nightfall is a minimal dark theme for Hugo
-
-![Hugo Theme Nightfall](https://raw.githubusercontent.com/LordMathis/hugo-theme-nightfall/main/images/screenshot.png)
-![Hugo Theme Nightfall Posts](https://raw.githubusercontent.com/LordMathis/hugo-theme-nightfall/main/images/screenshot_2.png)
-![Hugo Theme Nightfall Single](https://raw.githubusercontent.com/LordMathis/hugo-theme-nightfall/main/images/screenshot_3.png)
+This is a fork from [lordmathis nightfall theme](https://github.com/lordmathis/hugo-theme-nightfall) modified for my personal website lachicadesistemas.com.ar
 
 ## Get the theme
 
