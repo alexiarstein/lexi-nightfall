@@ -1,0 +1,38 @@
+@import "../utils/variables";
+
+.content {
+  text-align: center;
+  flex: 1 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.vertical {
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  flex: 1 auto;
+
+}
+
+.main {
+  height: 100%;
+
+  @media only screen and (min-width: $breakLarge) {
+    width: $width;
+  }
+
+  @media screen and (max-width: $breakLarge) {
+    width: 100%;    
+  }
+}

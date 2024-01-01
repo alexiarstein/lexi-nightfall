@@ -1,0 +1,15 @@
+<div class="socialNavbar">
+    <ul>
+        {{ range sort .Site.Params.social "key"}}
+        <li>
+            {{ if isset . "icon" }}
+                <a href="{{ .url | safeURL }}" aria-hidden="true" title="{{ .name }}" {{ if .rel }} rel="{{ .rel }}"{{ end }}>
+                    <i class="{{ .icon }}"></i>
+                </a>
+            {{ else }}
+                <a href="{{ .url | safeURL }}" {{ if .rel }} rel="{{ .rel }}"{{ end }}>{{ .name }}</a>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</div>
